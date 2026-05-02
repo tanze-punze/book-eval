@@ -32,6 +32,7 @@ La responsabilidad de verificar recae en el lector. Incluso autores famosos dist
 | Decidir si comprar un libro | `workflows/evaluar-antes-de-comprar.md` |
 | Evaluar mientras lees | `workflows/evaluar-mientras-lees.md` |
 | Evaluacion completa post-lectura | `workflows/evaluar-despues-de-leer.md` |
+| **Leer un libro completo en PDF/EPUB sin errores de tamano** | `workflows/lectura-profunda-pdf.md` |
 | Plantilla de puntuacion rellenable | `templates/rubrica-puntuacion.md` |
 | Framework CRAAP (el mas usado) | `references/01-craap-test.md` |
 | Metodo SIFT (evaluacion rapida) | `references/02-sift-method.md` |
@@ -56,6 +57,13 @@ Estas LEYENDO un libro y quieres evaluar sobre la marcha?
 Ya TERMINASTE el libro y quieres una evaluacion completa?
   --> Rubrica completa con puntuacion
   --> workflows/evaluar-despues-de-leer.md + templates/rubrica-puntuacion.md
+
+El usuario te pide LEER el libro completo (PDF / EPUB largo)?
+  --> Lectura por bloques con pdftotext, evita "Request too large"
+  --> workflows/lectura-profunda-pdf.md
+  --> Aplica cuando el usuario dice "leelo entero", "no te saltes capitulos",
+      "haz una pasada real", o cuando una evaluacion previa solo cubrio
+      paginas estructurales (prologo, indice, bibliografia)
 
 Es un libro de AUTOAYUDA / desarrollo personal?
   --> Escrutinio extra: verificar formacion profesional del autor
